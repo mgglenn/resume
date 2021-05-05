@@ -8,7 +8,7 @@ I created this template as managing a resume on Google Docs was hard and changin
 
 ```sh
 docker build -t latex .
-docker run --rm -i -v "$PWD":/data latex pdflatex sourabh_bajaj_resume.tex
+docker run --rm -i -v "$PWD":/data latex pdflatex resume.tex
 ```
 
 ### Preview
